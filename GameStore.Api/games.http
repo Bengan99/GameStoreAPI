@@ -22,7 +22,7 @@ Content-Type: application/json
 {
     "name": "Stardew Valley Novi",
     "genre": "Simulation",
-    "price": 9.99,
+    "price": 499.00,
     "releaseDate": "2016-02-26"
 }
 
