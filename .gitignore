@@ -1,3 +1,59 @@
+# ===============================
 # Build outputs
+# ===============================
 **/bin/
 **/obj/
+
+# ===============================
+# Visual Studio / Rider / VS Code
+# ===============================
+.vs/
+.idea/
+.vscode/
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ===============================
+# ASP.NET Core
+# ===============================
+appsettings.Development.json
+appsettings.Local.json
+
+# ===============================
+# Publish output
+# ===============================
+**/publish/
+
+# ===============================
+# Logs
+# ===============================
+logs/
+*.log
+
+# ===============================
+# NuGet
+# ===============================
+packages/
+.nuget/
+
+# keep lock file
+!packages.lock.json
+
+# ===============================
+# OS junk
+# ===============================
+Thumbs.db
+.DS_Store
+
+# ===============================
+# Optional (only if you use them)
+# ===============================
+
+# User secrets
+secrets.json
+
+# EF Core (ignore only if migrations are not shared)
+# **/Migrations/
